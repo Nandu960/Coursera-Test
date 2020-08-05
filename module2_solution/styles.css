@@ -1,0 +1,122 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  background-color: #D3D3D3;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    
+  }
+  
+  .col-sd-12 {
+    width: 100%;
+  }
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#00BFFF;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
+}
+
+.item p{
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.head{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: transparent; 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.c {
+  background: transparent;
+
+}
+
+#title-one {
+  background-color: #DC143C;
+} 
+
+#title-two{
+  background-color: #FFA500 ;
+}
+
+#title-three{
+  background-color: #BC8F8F;
+}
